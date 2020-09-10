@@ -36,7 +36,7 @@ export default function PersonForm() {
 
   return (
     <>
-      <h2>Add Person</h2>
+      <h2>Add Person with Axios (POST)</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor='userId'></label>
         <input
@@ -49,7 +49,7 @@ export default function PersonForm() {
         <input type='submit' value='Add' />
       </form>
       <hr />
-      <h2>Delete Person</h2>
+      <h2>Delete Person with Axios (DELETE)</h2>
       <form onSubmit={handleDelete}>
         <label htmlFor='userId'></label>
         <input
